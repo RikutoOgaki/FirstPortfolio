@@ -5,15 +5,15 @@ import { NextComponentType } from 'next';
 export default function Header(){
     return(
         <>
-            <Flex w={"100%"} h={"40px"} bg={"#000"} justifyContent={"flex-end"}>
+            <Flex w={"100%"} h={"70px"} bg={"#1a4472"} justifyContent={"flex-end"} paddingRight={"40px"}>
                 <NextLink href={"/"}>
-                    <Text as={"p"} w={"150px"} color={"#fff"} lineHeight={"2.5"}>TOP</Text>
+                    <Text as={"p"} w={"200px"} color={"#fff"} lineHeight={"4"} fontWeight={"bold"} textAlign={"center"}>TOP</Text>
                 </NextLink>
                 <NextLink href={"/"}>
-                    <Text as={"p"} w={"150px"} color={"#fff"} lineHeight={"2.5"}>TOP</Text>
+                    <Text as={"p"} w={"200px"} color={"#fff"} lineHeight={"4"} fontWeight={"bold"} textAlign={"center"}>TOP</Text>
                 </NextLink>
                 <NextLink href={"/"}>
-                    <Text as={"p"} w={"150px"} color={"#fff"} lineHeight={"2.5"}>TOP</Text>
+                    <Text as={"p"} w={"200px"} color={"#fff"} lineHeight={"4"} fontWeight={"bold"} textAlign={"center"}>TOP</Text>
                 </NextLink>
             </Flex>
         </>

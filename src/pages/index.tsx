@@ -3,11 +3,26 @@ import Header from '@/components/Header'
 
 export default function Home(){
     return(
-        <div>
+        <Box bg={"#1a4472"}>
+          <Box as='header'>
             <Header/>
             <Flex justifyContent={"center"} alignItems={"center"} w={"100%"} h={"600px"}>
-              <Text color={"#000"} fontWeight={"bold"} fontSize={"60px"}>Rikuto Ogaki</Text>
+              <Text color={"#fff"} fontWeight={"bold"} fontSize={"90px"}>Rikuto Ogaki</Text>
             </Flex>
-        </div>
+          </Box>
+          <Box as='main'>
+            <Box as='div'>
+              <Text as={"h1"} color={"#fff"} fontSize={"48px"}>大垣 陸斗</Text>
+                <Text as={"p"} color={"#fff"}>
+                  2003年5月31日生まれ<br/>
+                  ECCコンピュータ専門学校 Webデザインコース<br/>
+                  25年卒
+                </Text>
+                <Text as={"p"}>
+                  
+                </Text>
+            </Box>
+          </Box>
+        </Box>
     )
 }
