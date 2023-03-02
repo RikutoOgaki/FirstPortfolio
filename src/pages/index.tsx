@@ -9,7 +9,7 @@ export default function Home(){
               <Text color={"#fff"} fontWeight={"bold"} fontSize={"90px"}>Rikuto Ogaki</Text>
             </Flex>
           <Box as='main' marginTop={"180px"}>
-            <Box as='div'>
+            <Box as='div' textAlign={"center"}>
               <Box as='span' color={"#fff"}>おおがき りくと</Box>
               <Text as={"h1"} color={"#fff"} fontSize={"6rem"}>大垣 陸斗</Text>
                 <Text as={"p"} color={"#fff"}>
