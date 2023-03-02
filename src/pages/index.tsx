@@ -12,7 +12,7 @@ export default function Home(){
           </Box>
           <Box as='main'>
             <Box as='div'>
-              <Text as={"h1"} color={"#fff"} fontSize={"48px"}>大垣 陸斗</Text>
+              <Text as={"h1"} color={"#fff"} fontSize={"4.8em"}>大垣 陸斗</Text>
                 <Text as={"p"} color={"#fff"}>
                   2003年5月31日生まれ<br/>
                   ECCコンピュータ専門学校 Webデザインコース<br/>
