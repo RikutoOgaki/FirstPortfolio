@@ -48,6 +48,7 @@ return(
                 className={Style.language} /></li>
             <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
                 className={Style.language} /></li>
+            <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" className={Style.language} /></li>
           </ul>
         </Box>
         <Flex>
