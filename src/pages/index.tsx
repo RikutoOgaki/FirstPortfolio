@@ -7,7 +7,7 @@ export default function Home(){
 return(
 <Box bg={"#1a4472"}>
   <Header />
-  <Flex justifyContent={"center"} alignItems={"center"} w={"100%"} h={"50rem"}>
+  <Flex justifyContent={"center"} alignItems={"center"} w={"100%"} h={"70rem"}>
     <Text as={'h1'} color={"#fff"} fontWeight={"bold"} fontSize={"6vw"}>Rikuto Ogaki</Text>
   </Flex>
 
