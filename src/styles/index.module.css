@@ -1,0 +1,9 @@
+.flex{
+    display: flex;
+    list-style: none;
+}
+.language{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2rem;
+}
