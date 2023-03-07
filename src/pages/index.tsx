@@ -4,6 +4,8 @@ import Footer from '@/components/Footer'
 import Style from '@/styles/index.module.css'
 
 export default function Home(){
+
+
 return(
 <Box bg={"#1a4472"}>
   <Header />
@@ -32,39 +34,32 @@ return(
         </Text>
       </Box>
     </Box>
-    <Flex justifyContent={'flex-end'}>
+    <Flex justifyContent={'flex-end'} marginTop={'30rem'}>
       <Box as='div' marginRight={'9rem'}>
         <Text as={'h2'} color={'#fff'} fontSize={'2vw'}>what I use & am language</Text>
         <Box>
           <Text as={'h3'} color={'#fff'} fontSize={'1vw'} marginTop={'2rem'}>メイン使用技術</Text>
           <ul className={Style.flex}>
             <li>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-                className={Style.language} />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" className={Style.language} />
             </li>
             <li>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
-                className={Style.language} />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" className={Style.language} />
             </li>
             <li>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-                className={Style.language} />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" className={Style.language} />
             </li>
             <li>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                className={Style.language} />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" className={Style.language} />
             </li>
             <li>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                className={Style.language} />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" className={Style.language} />
             </li>
             <li>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
-                className={Style.language} />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" className={Style.language} />
             </li>
             <li>
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg"
-                className={Style.language} />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" className={Style.language} />
             </li>
           </ul>
         </Box>
