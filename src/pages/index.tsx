@@ -9,12 +9,12 @@ export default function Home(){
 return(
 <Box bg={"#1a4472"}>
   <Header />
-  <Flex justifyContent={"center"} alignItems={"center"} w={"100%"} h={"70rem"}>
-    <Text as={'h1'} color={"#fff"} fontWeight={"bold"} fontSize={"6vw"}>Rikuto Ogaki</Text>
+  <Flex justifyContent={"center"} alignItems={"center"} w={"100%"} h={"90vh"}>
+    <Text as={'h1'} color={"#fff"} fontWeight={"bold"} fontSize={{base:'60rem',md:'40rem',lg:'72rem'}}>Rikuto Ogaki</Text>
   </Flex>
 
   <Box as='main' marginTop={"18rem"}>
-    <Box as='div' marginLeft={"9rem"}>
+    <Box as='div' marginLeft={"9rem"} marginRight={'5rem'}>
       <Box as='section'>
         <Box as='span' color={"#fff"} fontSize={"1vw"}>おおがき りくと</Box>
         <Text as={"p"} color={"#fff"} fontSize={"5vw"}>大垣 陸斗</Text>
@@ -35,7 +35,7 @@ return(
       </Box>
     </Box>
     <Flex justifyContent={'flex-end'} marginTop={'30rem'}>
-      <Box as='div' marginRight={'9rem'}>
+      <Box as='div' marginRight={'9rem'} marginLeft={'5rem'}>
         <Text as={'h2'} color={'#fff'} fontSize={'2vw'}>what I use & am language</Text>
         <Box>
           <Text as={'h3'} color={'#fff'} fontSize={'1vw'} marginTop={'2rem'}>メイン使用技術</Text>
@@ -63,58 +63,69 @@ return(
             </li>
           </ul>
         </Box>
-        <Flex>
           <Box>
             <Text as={'h3'} color={'#fff'} fontSize={'1vw'} marginTop={'2rem'}>学びたい技術</Text>
             <ul className={Style.flex}>
               <li>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
-                  className={Style.language} />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" className={Style.language} />
               </li>
               <li>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg"
-                  className={Style.language} />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" className={Style.language} />
               </li>
               <li>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg"
-                  className={Style.language} />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-plain-wordmark.svg" className={Style.language} /> 
               </li>
               <li>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
-                  className={Style.language} />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" className={Style.language} />
               </li>
               <li>
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg"
-                  className={Style.language} />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg" className={Style.language} />
               </li>
               <li>
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
-                  className={Style.language} />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" className={Style.language} />
               </li>
             </ul>
           </Box>
-        </Flex>
+          <Box>
+            <Text as={'h3'} color={'#fff'} fontSize={'1vw'} marginTop={'2rem'}>使用ツール</Text>
+            <ul className={Style.flex}>
+              <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" className={Style.language} />
+              </li>
+              <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-plain.svg" className={Style.language} />
+              </li>
+              <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" className={Style.language} />
+              </li>
+              <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg" className={Style.language} />
+              </li>
+              <li>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg" className={Style.language} />
+              </li>
+            </ul>
+          </Box>
       </Box>
     </Flex>
-    <Box as='div'>
+    <Box as='div' marginTop={'30rem'}>
       <Flex justifyContent={'center'}>
         <Box as='section' textAlign={'center'}>
-          <Box as='figure'>
+          <Box as='figure' w={'20vw'} h={'10vh'} border={'1px solid #fff'}>
             <Box as='img' src=''></Box>
           </Box>
           <Text as={'h3'} color={'#fff'}>Woodist</Text>
           <Text as={'p'} color={'#fff'}>キャンプができるカフェ</Text>
         </Box>
         <Box as='section' textAlign={'center'}>
-          <Box as='figure'>
+          <Box as='figure' w={'20vw'} h={'10vh'} border={'1px solid #fff'}>
             <Box as='img'></Box>
           </Box>
           <Text as={'h3'} color={'#fff'}>ぐらっぷ！</Text>
           <Text as={'p'} color={'#fff'}>グループワークを補助するアプリ</Text>
         </Box>
         <Box as='section' textAlign={'center'}>
-          <Box as='figure'>
+          <Box as='figure' w={'20vw'} h={'10vh'} border={'1px solid #fff'}>
             <Box as='img'></Box>
           </Box>
           <Text as={'h3'} color={'#fff'}>おてつだいズ</Text>
