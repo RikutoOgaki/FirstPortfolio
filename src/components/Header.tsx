@@ -1,24 +1,25 @@
-import {Box,Text,Flex, border} from '@chakra-ui/react'
+import { Box, Text, Flex, border, Container, HStack } from '@chakra-ui/react'
 import Link from 'next/link'
 import { NextComponentType } from 'next';
 
-export default function Header(){
-    return(
+export default function Header() {
+    return (
         <>
-            <Flex w={"100%"} h={"70px"} bg={"#1a4472"} justifyContent={'center'}>
-                <Text w={"25%"} color={"#fff"} lineHeight={"4"} fontWeight={"bold"} textAlign={"center"} fontSize={"1vw"}>
-                    <Link href={"/"}>TOP</Link>
-                </Text>
-                <Text  w={"25%"} color={"#fff"} lineHeight={"4"} fontWeight={"bold"} textAlign={"center"} fontSize={"1vw"}>
-                    <Link href={"/"}>about</Link>
-                </Text>
-                <Text w={"25%"} color={"#fff"} lineHeight={"4"} fontWeight={"bold"} textAlign={"center"} fontSize={'1vw'}>
-                    <Link href={"/"}>skill</Link>
-                </Text>
-                <Text w={"25%"} color={"#fff"} lineHeight={"4"} fontWeight={"bold"} textAlign={"center"} fontSize={"1vw"}>
-                    <Link href={"/"}>skill</Link>
-                </Text>
-            </Flex>
+            <header>
+                <Flex w={'100vw'} justifyContent={'center'}>
+                    <Container maxW={'container.xl'} position={'absolute'} top={'0'} zIndex={'1'}>
+                        <nav>
+                            <Flex justifyContent={'flex-end'}>
+                                <HStack color={'#fff'} >
+                                    <Link href={'/'}>top</Link>
+                                    <Link href={'/'}>top</Link>
+                                    <Link href={'/'}>top</Link>
+                                </HStack>
+                            </Flex>
+                        </nav>
+                    </Container>
+                </Flex>
+            </header>
         </>
     )
 }

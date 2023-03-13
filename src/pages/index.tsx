@@ -7,7 +7,7 @@ export default function portfolio(){
   return(
     <>
       <Header/>
-      <Block1/>
+        <Block1/>
       <Footer/>
     </>
   )
