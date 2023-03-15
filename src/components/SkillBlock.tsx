@@ -28,9 +28,9 @@ import {
 } from 'react-icons/si'
 
 type Icon = {
-    useicon: IconType,
-    studyicon: IconType,
-    usingicon: IconType
+    useicon: IconType[],
+    studyicon: IconType[],
+    usingicon: IconType[]
 }
 
 export default function SkillBlock() {
