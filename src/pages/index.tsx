@@ -4,6 +4,7 @@ import Footer from '@/components/Footer'
 import Name from '@/components/NameBlock'
 import Profile from '@/components/ProfileBlock'
 import Skill from '@/components/SkillBlock'
+import Work from '@/components/WorksBlock'
 
 export default function portfolio() {
   return (
@@ -13,6 +14,7 @@ export default function portfolio() {
         <Name />
         <Profile />
         <Skill />
+        <Work />
       </main>
       <Footer />
     </>

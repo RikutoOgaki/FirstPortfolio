@@ -1,5 +1,4 @@
 import { Box, Center, Flex, Text, Icon } from '@chakra-ui/react'
-import { IconType } from 'react-icons'
 import {
     SiHtml5,
     SiCss3,
@@ -26,12 +25,6 @@ import {
     SiNotion,
     SiSlack
 } from 'react-icons/si'
-
-type Icon = {
-    useicon: IconType[],
-    studyicon: IconType[],
-    usingicon: IconType[]
-}
 
 export default function SkillBlock() {
 
