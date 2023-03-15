@@ -8,8 +8,10 @@ export default function portfolio() {
   return (
     <>
       <Header />
-      <Name />
-      <Profile />
+      <main>
+        <Name />
+        <Profile />
+      </main>
       <Footer />
     </>
   )
