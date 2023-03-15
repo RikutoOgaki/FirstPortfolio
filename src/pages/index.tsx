@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Name from '@/components/NameBlock'
 import Profile from '@/components/ProfileBlock'
+import Skill from '@/components/SkillBlock'
 
 export default function portfolio() {
   return (
@@ -11,6 +12,7 @@ export default function portfolio() {
       <main>
         <Name />
         <Profile />
+        <Skill />
       </main>
       <Footer />
     </>
