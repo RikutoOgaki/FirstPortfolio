@@ -51,7 +51,7 @@ export default function Footer() {
                     </Link>
                 </Flex>
                 <Text
-                    as={'small'}
+                    as={'p'}
                     color={'#fff'}
                     textAlign={'center'}
                     marginTop={'4rem'}
