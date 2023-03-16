@@ -6,7 +6,7 @@ export default function Footer() {
     return (
         <>
             <Box
-                as='footer'
+                as={'footer'}
                 w={'100%'}
                 h={'30rem'}
                 marginTop={'30rem'}
