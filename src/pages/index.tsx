@@ -22,7 +22,7 @@ export default function portfolio() {
         color={'#fff'}
         textAlign={'center'}
         marginTop={'4rem'}
-      >&copy;RikutoOgaki</Text>
+      >&copy;RikutoOgaki's portfolio</Text>
     </>
   )
 }

@@ -6,9 +6,10 @@ export default function Footer() {
     return (
         <>
             <Box
+                as='footer'
                 w={'100%'}
                 h={'30rem'}
-                marginTop={'10rem'}
+                marginTop={'30rem'}
             >
                 <Flex flexDir={'column'} textAlign={'center'} gap={'4rem'}>
                     <Text
