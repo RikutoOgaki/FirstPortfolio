@@ -13,7 +13,7 @@ export default function Header() {
                         <Text
                             as={'p'}
                             color={'#fff'}
-                            fontSize={'1.6rem'}
+                            fontSize={'1.8rem'}
                             marginTop={'2vh'}
                             fontWeight={'bold'}>Top</Text>
                     </Link>
@@ -21,7 +21,7 @@ export default function Header() {
                         <Text
                             as={'p'}
                             color={'#fff'}
-                            fontSize={'1.6rem'}
+                            fontSize={'1.8rem'}
                             marginTop={'2vh'}
                             fontWeight={'bold'}>About</Text>
                     </Link>
@@ -29,7 +29,7 @@ export default function Header() {
                         <Text
                             as={'p'}
                             color={'#fff'}
-                            fontSize={'1.6rem'}
+                            fontSize={'1.8rem'}
                             marginTop={'2vh'}
                             fontWeight={'bold'}>Works</Text>
                     </Link>

@@ -45,14 +45,14 @@ export default function WorksBlock() {
                                 <Text
                                     as={'p'}
                                     fontSize={'1.6rem'}
-                                    marginBottom={'2rem'}
+                                    marginBottom={'2.4rem'}
                                     color={'#fff'}
                                     textAlign={'start'}
                                 >Woodist</Text>
                                 <Text
                                     as={'p'}
                                     color={'#fff'}
-                                    marginTop={'2rem'}
+                                    marginTop={'2.4rem'}
                                     textAlign={'start'}
                                 >
                                     普段体験できない非現実を感じるカフェ
@@ -60,7 +60,7 @@ export default function WorksBlock() {
                                 <Text
                                     as={'p'}
                                     color={'#fff'}
-                                    marginTop={'2rem'}
+                                    marginTop={'2.4rem'}
                                     textAlign={'start'}
                                 >
                                     ビルがかなり立ち並び、インターネットも普及してきた今<br />あまり自然に触れる機会が少ないと感じコンセプトに自然とコーヒーをかけ合わせました。<br />
@@ -71,7 +71,7 @@ export default function WorksBlock() {
                                 <Text
                                     as={'p'}
                                     color={'#fff'}
-                                    marginTop={'2rem'}
+                                    marginTop={'2.4rem'}
                                     textAlign={'start'}
                                     fontWeight={'bold'}
                                 >
@@ -80,7 +80,7 @@ export default function WorksBlock() {
                                 <Text
                                     as={'p'}
                                     color={'#fff'}
-                                    marginTop={'2rem'}
+                                    marginTop={'2.4rem'}
                                     textAlign={'start'}
                                 >
                                     期間 : 1年前期 個人制作
@@ -90,7 +90,7 @@ export default function WorksBlock() {
                                         as={'p'}
                                         display={'flex'}
                                         color={'#fff'}
-                                        marginTop={'2rem'}
+                                        marginTop={'2.4rem'}
                                         textAlign={'start'}
                                         _hover={{ textDecoration: 'underline' }}
                                     >
