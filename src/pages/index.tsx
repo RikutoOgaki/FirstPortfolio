@@ -17,6 +17,12 @@ export default function portfolio() {
         <Work />
       </main>
       <Footer />
+      <Text
+        as={'p'}
+        color={'#fff'}
+        textAlign={'center'}
+        marginTop={'4rem'}
+      >&copy;RikutoOgaki</Text>
     </>
   )
 }

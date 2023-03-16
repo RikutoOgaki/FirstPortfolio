@@ -7,8 +7,8 @@ export default function Footer() {
         <>
             <Box
                 w={'100%'}
-                h={'40rem'}
-                marginTop={'30rem'}
+                h={'30rem'}
+                marginTop={'10rem'}
             >
                 <Flex flexDir={'column'} textAlign={'center'} gap={'4rem'}>
                     <Text
@@ -21,17 +21,17 @@ export default function Footer() {
                         color={'#fff'}
                         fontSize={'4.8rem'}
                     >orikutobaske.gmail.com</Text>
+                    <Text
+                        as={'p'}
+                        textAlign={'center'}
+                        color={'#fff'}
+                        fontSize={'2.4rem'}
+                    >social</Text>
                 </Flex>
-                <Text
-                    as={'p'}
-                    textAlign={'center'}
-                    color={'#fff'}
-                    fontSize={'2.4rem'}
-                >social</Text>
                 <Flex
                     justifyContent={'space-around'}
                     w={'30%'}
-                    margin={'0 auto'}
+                    margin={'5rem auto'}
                 >
                     <Link href={'https://github.com/RikutoOgaki'}>
                         <Text color={'#fff'} fontSize={'2rem'}>
@@ -49,11 +49,6 @@ export default function Footer() {
                         </Text>
                     </Link>
                 </Flex>
-                <Text
-                    as={'p'}
-                    color={'#fff'}
-                    textAlign={'center'}
-                >&copy;RikutoOgaki</Text>
             </Box>
         </>
     )

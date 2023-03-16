@@ -87,7 +87,7 @@ export default function WorksBlock() {
                                 </Text>
                                 <Link href={'https://click.ecc.ac.jp/ecc/rogaki/woodist/web/temp.html'}>
                                     <Box
-                                        as={'a'}
+                                        as={'p'}
                                         display={'flex'}
                                         color={'#fff'}
                                         marginTop={'2rem'}
