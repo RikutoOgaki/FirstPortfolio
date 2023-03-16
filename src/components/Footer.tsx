@@ -51,11 +51,11 @@ export default function Footer() {
                     </Link>
                 </Flex>
                 <Text
-                    as={'p'}
+                    as={'small'}
                     color={'#fff'}
                     textAlign={'center'}
                     marginTop={'4rem'}
-                >&copy;RikutoOgaki portfolio</Text>
+                >RikutoOgaki portfolio</Text>
             </Box>
         </>
     )
