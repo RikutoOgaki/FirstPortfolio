@@ -55,7 +55,7 @@ export default function Footer() {
                     color={'#fff'}
                     textAlign={'center'}
                     marginTop={'4rem'}
-                >&copy;RikutoOgaki's portfolio</Text>
+                >&copy;RikutoOgaki portfolio</Text>
             </Box>
         </>
     )
