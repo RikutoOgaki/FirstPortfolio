@@ -37,10 +37,10 @@ export default function WorksBlock() {
                 >
                     <Box
                         textAlign={'center'}
-                        marginTop={'3rem'}
                         margin={'0 auto'}
+                        padding={'2rem'}
                     >
-                        <Flex >
+                        <Flex flexWrap={'wrap'} gap={'2rem'}>
                             <Box>
                                 <Text
                                     as={'p'}
@@ -104,17 +104,16 @@ export default function WorksBlock() {
                                     src="/img/woodist.png"
                                     w={'35rem'}
                                     h={'25rem'}
-                                    margin={'0 0 0 4rem'}
                                     alt="otetudaizu" />
                             </figure>
                         </Flex>
                     </Box>
                     <Box
                         textAlign={'center'}
-                        marginTop={'3rem'}
+                        padding={'2rem'}
                         margin={'0 auto'}
                     >
-                        <Flex >
+                        <Flex flexWrap={'wrap'} gap={'2rem'}>
                             <Box>
                                 <Text
                                     as={'p'}
@@ -177,17 +176,16 @@ export default function WorksBlock() {
                                     src="/img/gurappu.png"
                                     w={'35rem'}
                                     h={'25rem'}
-                                    margin={'0 0 0 4rem'}
                                     alt="otetudaizu" />
                             </figure>
                         </Flex>
                     </Box>
                     <Box
                         textAlign={'center'}
-                        marginTop={'3rem'}
+                        padding={'2rem'}
                         margin={'0 auto'}
                     >
-                        <Flex >
+                        <Flex flexWrap={'wrap'} gap={'2rem'}>
                             <Box>
                                 <Text
                                     as={'p'}
@@ -251,7 +249,6 @@ export default function WorksBlock() {
                                     src="/img/otetudaizu.png"
                                     w={'35rem'}
                                     h={'25rem'}
-                                    margin={'0 0 0 4rem'}
                                     alt="otetudaizu" />
                             </figure>
                         </Flex>

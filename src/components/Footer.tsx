@@ -19,7 +19,7 @@ export default function Footer() {
                     <Text
                         as={'p'}
                         color={'#fff'}
-                        fontSize={'4.8rem'}
+                        fontSize={'2.4rem'}
                     >orikutobaske.gmail.com</Text>
                     <Text
                         as={'p'}
