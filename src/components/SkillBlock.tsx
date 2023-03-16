@@ -102,7 +102,7 @@ export default function SkillBlock() {
                                     marginRight={'2rem'}>
                                     <Icon
                                         as={item}
-                                        fontSize={'2.4rem'} />
+                                        fontSize={'3.2rem'} />
                                 </Box>
                             )}
                         </Flex>
@@ -122,7 +122,7 @@ export default function SkillBlock() {
                                     marginRight={'2rem'}>
                                     <Icon
                                         as={item}
-                                        fontSize={'2.4rem'} />
+                                        fontSize={'3.2rem'} />
                                 </Box>
                             )}
                         </Flex>
@@ -142,7 +142,7 @@ export default function SkillBlock() {
                                     marginRight={'2rem'}>
                                     <Icon
                                         as={item}
-                                        fontSize={'2.4rem'} />
+                                        fontSize={'3.2rem'} />
                                 </Box>
                             )}
                         </Flex>
