@@ -91,7 +91,10 @@ export default function SkillBlock() {
                             color={'#fff'}
                             fontSize={'1.6rem'}>メインで使用している技術</Text>
                         <Flex
-                            margin={'2rem 0 2rem 0'}>
+                            justifyContent={'flex-end'}
+                            margin={'2rem 0 2rem 0'}
+                            flexWrap={'wrap'}
+                        >
                             {iconArray.useicon.map((item, v) =>
                                 <Box
                                     key={v}
@@ -108,7 +111,10 @@ export default function SkillBlock() {
                             color={'#fff'}
                             fontSize={'1.6rem'}>学んでいる（学びたい）技術</Text>
                         <Flex
-                            margin={'2rem 0 2rem 0'}>
+                            justifyContent={'flex-end'}
+                            margin={'2rem 0 2rem 0'}
+                            flexWrap={'wrap'}
+                        >
                             {iconArray.studyicon.map((item, v) =>
                                 <Box
                                     key={v}
@@ -125,7 +131,10 @@ export default function SkillBlock() {
                             color={'#fff'}
                             fontSize={'1.6rem'}>使用ツール</Text>
                         <Flex
-                            margin={'2rem 0 2rem 0'} >
+                            justifyContent={'flex-end'}
+                            margin={'2rem 0 2rem 0'}
+                            flexWrap={'wrap'}
+                        >
                             {iconArray.usingicon.map((item, v) =>
                                 <Box
                                     key={v}

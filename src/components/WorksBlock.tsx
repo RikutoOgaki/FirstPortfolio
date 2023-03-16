@@ -11,6 +11,7 @@ export default function WorksBlock() {
                     justifyContent={'flex-start'}
                     marginLeft={'5%'}
                     marginRight={'5%'}
+                    marginTop={'30rem'}
                 >
                     <Text
                         as={'h2'}
@@ -31,8 +32,10 @@ export default function WorksBlock() {
                 >
                     <Box
                         textAlign={'center'}
-                        w={'30rem'}>
-                        <Link href={'https://click.ecc.ac.jp/ecc/rogaki/woodist/web/temp.html'}>
+                        w={'30rem'}
+                        marginTop={'3rem'}
+                    >
+                        <Link href={'/WoodistPage'}>
                             <Text
                                 as={'p'}
                                 fontSize={'1.6rem'}
@@ -56,7 +59,9 @@ export default function WorksBlock() {
                     </Box>
                     <Box
                         textAlign={'center'}
-                        w={'30rem'}>
+                        w={'30rem'}
+                        marginTop={'3rem'}
+                    >
                         <Link href={'https://gurappu.vercel.app/'}>
                             <Text
                                 as={'p'}
@@ -81,7 +86,9 @@ export default function WorksBlock() {
                     </Box>
                     <Box
                         textAlign={'center'}
-                        w={'30rem'}>
+                        w={'30rem'}
+                        marginTop={'3rem'}
+                    >
                         <Link href={'https://tea-m.vercel.app/'}>
                             <Text
                                 as={'p'}

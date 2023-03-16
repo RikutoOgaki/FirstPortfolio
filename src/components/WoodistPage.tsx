@@ -3,15 +3,27 @@ import Header from './Header'
 
 export default function WoodistPage() {
     <>
-        <Box>
-            <Header />
+        <Header />
+        <Box
+            w={'100%'}
+            h={'95vh'}
+        >
             <Box>
-                <Text as={'h2'}>work title : Woodist</Text>
+                <Text
+                    as={'h2'}
+                    color={'#fff'}
+                >work title : Woodist</Text>
             </Box>
             <Flex>
-                <Box>
+                <Box as='section'>
 
                 </Box>
+                <figure>
+                    <Box
+                        as='img'
+                        src='/img/woodist.png'
+                    ></Box>
+                </figure>
             </Flex>
         </Box>
     </>
