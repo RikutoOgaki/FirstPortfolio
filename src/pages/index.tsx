@@ -16,7 +16,7 @@ export default function portfolio() {
         <Skill />
         <Work />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }

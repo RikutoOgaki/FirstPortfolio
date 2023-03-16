@@ -7,62 +7,103 @@ export default function WorksBlock() {
             <Box
                 as='section'>
                 <Flex
-                    justifyContent={'space-around'}>
-                    <Box
-                        textAlign={'center'}
-                        w={'30%'}>
-                        <Link href={'/'}>
-                            <figure>
-                                <img src="" alt="" />
-                            </figure>
-                            <Text
-                                as={'p'}
-                                color={'#fff'}>Woodist</Text>
-                            <Text
-                                as={'p'}
-                                color={'#fff'}>１年前記制作</Text>
-                        </Link>
-                    </Box>
-                    <Box
-                        textAlign={'center'}
-                        w={'30%'}>
-                        <Link href={'/'}>
-                            <figure>
-                                <img src="" alt="" />
-                            </figure>
-                            <Text
-                                as={'p'}
-                                color={'#fff'}>ぐらっぷ！</Text>
-                            <Text
-                                as={'p'}
-                                color={'#fff'}>１年後期制作</Text>
-                        </Link>
-                    </Box>
-                    <Box
-                        textAlign={'center'}
-                        w={'30%'}>
-                        <Link href={'/'}>
-                            <figure>
-                                <img src="" alt="" />
-                            </figure>
-                            <Text
-                                as={'p'}
-                                color={'#fff'}>おてつだいズ</Text>
-                            <Text
-                                as={'p'}
-                                color={'#fff'}>１年後期チーム制作</Text>
-                        </Link>
-                    </Box>
+                    flexDir={'column'}
+                    justifyContent={'flex-start'}
+                    marginLeft={'5%'}
+                    marginRight={'5%'}
+                >
+                    <Text
+                        as={'h2'}
+                        color={'#fff'}
+                        fontSize={'4.8rem'}
+                    >My works</Text>
+                    <Text
+                        as={'p'}
+                        w={'10%'}
+                        borderBottom={'1px solid #fff'}
+                        margin={'2rem 0 2rem 0'}></Text>
                 </Flex>
                 <Flex
-                    justifyContent={'center'}>
-                    <Button
-                        color={'#fff'}
-                        w={'10%'}
-                        h={'20%'}
-                        border={'1px solid #fff'}
-                        borderRadius={'.5rem'}
-                    >show more</Button>
+                    w={'100%'}
+                    flexWrap={'wrap'}
+                    justifyContent={'space-around'}
+                    margin={'0 auto'}
+                >
+                    <Box
+                        textAlign={'center'}
+                        w={'30rem'}>
+                        <Link href={'https://click.ecc.ac.jp/ecc/rogaki/woodist/web/temp.html'}>
+                            <Text
+                                as={'p'}
+                                fontSize={'1.6rem'}
+                                marginBottom={'2rem'}
+                                color={'#fff'}>Woodist</Text>
+                            <figure>
+                                <Box
+                                    as='img'
+                                    src="/img/woodist.png"
+                                    w={'35rem'}
+                                    h={'25rem'}
+                                    margin={'0 auto'}
+                                    alt="woodist" />
+                            </figure>
+                            <Text
+                                as={'p'}
+                                color={'#fff'}
+                                marginTop={'2rem'}
+                            >キャンプで現実を忘れるアウトドアカフェ</Text>
+                        </Link>
+                    </Box>
+                    <Box
+                        textAlign={'center'}
+                        w={'30rem'}>
+                        <Link href={'https://gurappu.vercel.app/'}>
+                            <Text
+                                as={'p'}
+                                fontSize={'1.6rem'}
+                                marginBottom={'2rem'}
+                                color={'#fff'}>ぐらっぷ！</Text>
+                            <figure>
+                                <Box
+                                    as='img'
+                                    src="/img/gurappu.png"
+                                    w={'35rem'}
+                                    h={'25rem'}
+                                    margin={'0 auto'}
+                                    alt="gurappu" />
+                            </figure>
+                            <Text
+                                as={'p'}
+                                color={'#fff'}
+                                marginTop={'2rem'}
+                            >学校で行われるグループワークを補助するアプリ</Text>
+                        </Link>
+                    </Box>
+                    <Box
+                        textAlign={'center'}
+                        w={'30rem'}>
+                        <Link href={'https://tea-m.vercel.app/'}>
+                            <Text
+                                as={'p'}
+                                fontSize={'1.6rem'}
+                                marginBottom={'2rem'}
+                                color={'#fff'}>おてつだいズ</Text>
+                            <figure>
+                                <Box
+                                    as='img'
+                                    src="/img/otetudaizu.png"
+                                    w={'35rem'}
+                                    h={'25rem'}
+                                    margin={'0 auto'}
+                                    alt="otetudaizu" />
+                            </figure>
+                            <Text
+                                as={'p'}
+                                color={'#fff'}
+                                marginTop={'2rem'}
+                            >子供のお手伝いをサポートするアプリ</Text>
+                        </Link>
+                    </Box>
                 </Flex>
             </Box>
         </>
