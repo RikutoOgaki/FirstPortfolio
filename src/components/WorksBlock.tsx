@@ -35,7 +35,7 @@ export default function WorksBlock() {
                         w={'30rem'}
                         marginTop={'3rem'}
                     >
-                        <Link href={'/WoodistPage'}>
+                        <Link href={'./WoodistPage.tsx'}>
                             <Text
                                 as={'p'}
                                 fontSize={'1.6rem'}
